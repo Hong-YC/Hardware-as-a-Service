@@ -1,22 +1,28 @@
-# React/Flask Starter App on Heroku
-This is a barebones repo used to demonstrate the setup and deployment of a React/Flask app hosted on Heroku for EE461L, Software Engineering & Design.
+# Hardware-as-a-Services app
+This is a simple web app my teammates and I create using React/Flask/MongoDB/Heroku. [User Doucmentation](https://github.com/Hong-YC/EE461L-Team-Project/wiki/User-Doucmentation)
 
-## app.py
+
+## React/Flask Starter App on Heroku
+The following steps demonstrate the setup and deployment of this React/Flask app hosted on Heroku.
+
+(Note: As Heroku no longer support free server hosting, this app is not hosting on any server currently.)
+
+### app.py
 This contains the Flask backend. The ``/`` route serves up the built React app that is placed in ``/ui/build/`` each time you build the React frontend. You can run the backend by running the following on your command line in the top-level directory:
 
 ``flask run``
 
-## /ui
+### /ui
 This contains the React frontend. Run ``npm install`` after cloning this repo to install the ``node_modules``. 
 
 Each time you make changes to it, **you need to _manually build it_** by running the following on the command line in the ``/ui`` directory:
 
 ``npm run build``
 
-## requirements.txt
+### requirements.txt
 This is a list of Python libraries used by your Flask backend. Heroku uses it to install all of the dependencies used by your Flask app.
 
-## Suggested Workflow
+### Suggested Workflow
 Follow this suggested workflow as you make changes to increase your chances of success:
 
 1. **Fork this repo**, then clone it using ``git clone https://github.com/yourgithubusername/ee461-react-flask-heroku.git``
@@ -34,7 +40,7 @@ Follow this suggested workflow as you make changes to increase your chances of s
     - At the bottom of the Deploy page under Manual deploy, select the main branch and click Deploy Branch
     - If/when deployment fails, view the build log to learn why
 
-## FAQ
+### FAQ
 Q: Why isn't it working when I try to deploy to Heroku?
 
 A: If you try to deploy this repository _with no changes_ it _should_ work. The first place to look is the _build logs_ that are generated when you try to deploy.
