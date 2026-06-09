@@ -1,5 +1,5 @@
 # Hardware-as-a-Services app
-This is a simple web app my teammates and I create using React/Flask/MongoDB/Heroku. [User Doucmentation](https://github.com/Hong-YC/EE461L-Team-Project/wiki/User-Doucmentation)
+This is a simple web app my teammates and I create using React/Flask/MongoDB/Heroku.
 
 
 ## React/Flask Starter App on Heroku
