@@ -34,7 +34,7 @@ This is a list of Python libraries used by your Flask backend. Heroku uses it to
 ### Suggested Workflow
 Follow this suggested workflow as you make changes to increase your chances of success:
 
-1. **Fork this repo**, then clone it using ``git clone https://github.com/yourgithubusername/ee461-react-flask-heroku.git``
+1. Clone this repo.
 2. Open two terminals: one for working on React and another for Flask. We'll call these "React terminal" and "Flask terminal".
 3. Install React dependencies. In your React terminal, ``cd ui`` then ``npm install``.
 4. Build the React app. Run ``npm run build`` in your React terminal, in the ``ui`` directory.
